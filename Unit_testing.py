@@ -34,3 +34,5 @@ def upper_name(name):
 
 ##Hard testing: any kind of input that may hack the function and effect the programme, user is guided immediately.
 
+
+

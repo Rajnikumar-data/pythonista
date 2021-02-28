@@ -6,7 +6,10 @@ class Counter:
         self._value += 1
 
     def remove(self):
-        self._value -= 1
+        if self._value <= 0:
+            self._value = 0
+        else:
+            self._value -= 1
 
     def clear(self):
         self._value -= 0
